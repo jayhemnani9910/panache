@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.20.0](https://github.com/jolars/panache/compare/v3.19.0...v3.20.0) (2026-11-25)
+
+### Features
+
+- add VitePress Markdown flavor ([`fe76596`](https://github.com/jolars/panache/commit/fe76596ecee10185a6d322f197d6eeeea9ed30d3))
+
+### Bug Fixes
+
+- discover `jarl.toml` from the document path ([`cdb138d`](https://github.com/jolars/panache/commit/cdb138d5373c9e66df4fbc7b85364c67b56cad6f)), fixes [#639](https://github.com/jolars/panache/issues/639)
+- **parser:** keep dedented markers in nested lists ([`6287ec1`](https://github.com/jolars/panache/commit/6287ec1d32537cbb55e9d6ba718be63277656c61)), fixes [#635](https://github.com/jolars/panache/issues/635)
+- stop bare URIs at footnote markers ([`799feae`](https://github.com/jolars/panache/commit/799feae12b1172dbe90d73c50bc22a5598cee8fd)), fixes [#634](https://github.com/jolars/panache/issues/634)
+- stop inline math at invalid dollar delimiters ([`7f5f76d`](https://github.com/jolars/panache/commit/7f5f76d1c36c8b255725e4640cdad4339205055c)), fixes [#632](https://github.com/jolars/panache/issues/632)
+
+### Dependencies
+
+- updated crates/panache-formatter to v0.31.0
+- updated crates/panache-parser to v0.37.0
+
 ## [3.19.0](https://github.com/jolars/panache/compare/v3.18.0...v3.19.0) (2026-11-17)
 
 ### Highlights

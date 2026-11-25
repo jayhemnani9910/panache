@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.31.0](https://github.com/jolars/panache/compare/panache-formatter-v0.30.0...panache-formatter-v0.31.0) (2026-11-25)
+
+### Features
+
+- add VitePress Markdown flavor ([`fe76596`](https://github.com/jolars/panache/commit/fe76596ecee10185a6d322f197d6eeeea9ed30d3))
+
+### Dependencies
+
+- updated crates/panache-parser to v0.37.0
+
 ## [0.30.0](https://github.com/jolars/panache/compare/panache-formatter-v0.29.0...panache-formatter-v0.30.0) (2026-11-17)
 
 ### Features
